@@ -14,6 +14,32 @@
 
 [Pronto el manejo de opera]()
 
+[tabla]()
+Junit 5
+
+||  	|| 	||||
+|---------------------------------------------------------------|
+|
+
+
+
+### WebDriverManager API
+
+
+| FEATURE | JUNIT 4   |  JUNIT 5|
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|``Declarar Test``								|@Test				|@Test			|
+|``Ejecutar antes de todos lo metodos``			|@BeforeClass		|@BeforeAll		|
+|``Ejecutar despues de todos los metodos``		|@AfterClass		|@AfterAll		|
+|``Ejecutar antes de cada Test``				|@Before			|@BeforeEach	|
+|``Ejecutar despues de cada Test ``				|@After				|@AfterEach		|
+|``Deshabilitar un metodo ``					|@Ignore			|@Disabled		|
+|``Fabrica de pruebas para pruebas dina icas``	|NA					|@TestFactory	|
+|``Pruebas anidadas``							|NA					|@Nested		|
+|``Etiquetado y filtrado``						|@Category			|@Tag			|
+|``Registrar extensiones personalizadas``		|NA					|@ExtendWith	|
+
+
 
 
 
