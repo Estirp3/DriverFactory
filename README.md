@@ -17,13 +17,7 @@
 [tabla]()
 Junit 5
 
-||  	|| 	||||
-|---------------------------------------------------------------|
-|
-
-
-
-### WebDriverManager API
+### Diferencia Junit4 VS Junit5
 
 
 | FEATURE | JUNIT 4   |  JUNIT 5|
