@@ -11,10 +11,10 @@ public class BrowserFactory {
                 desiredBrowser = ChromeBrowser.buildChromeBrowser(pantalla);
             case "FireFox":
                 String[] parts = pantalla.split(",");
-                String part1 = parts[0];
-                String part2 = parts[1];
-                int valor = Integer.parseInt(part1);
-                int valor2 = Integer.parseInt(part2);
+                String height = parts[0];
+                String width = parts[1];
+                int valor = Integer.parseInt(height);
+                int valor2 = Integer.parseInt(width);
                 desiredBrowser = FireFoxBrowser.buildFireFoxDriver(valor,valor2);
 
                 break;
