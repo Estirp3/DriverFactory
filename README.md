@@ -11,6 +11,8 @@
 [ this.driver = BrowserFactory.getBrowser("tamaño pantalla","Navegador");]()
 [Para ocupar Chrome en navegador ingresar chrome]()
 [Para ocupar FireFOx en navegador ingresamos FireFox ]()
+[Para ocupar Internet Exploret en navegador ingresamos IE ]()
+### *Recuerda que el zoom del navegador en IE debe ser 100%
 
 [Pronto el manejo de opera]()
 

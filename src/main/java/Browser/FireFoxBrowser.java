@@ -14,6 +14,9 @@ public class FireFoxBrowser extends FirefoxDriver {
     private static WebDriver driver = null;
 
     public static WebDriver buildFireFoxDriver(int valor, int valor2){
+        File driverFile = new File("/usr/bin/chromedriver");
+        if(!driverFile.exists()) WebDriverManager.firefoxdriver().setup();
+
         WebDriverManager.firefoxdriver().setup();
         FirefoxOptions firefoxOptions = new FirefoxOptions();
         driver = new FirefoxDriver(firefoxOptions);
